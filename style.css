@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+
+body {
+    font-family: 'Quicksand', Arial, sans-serif;
+    background: #f7faff;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 40px 32px 32px 32px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+    font-weight: 700;
+}
+
+.highlight {
+    color: #1e90ff;
+}
+
+.underline {
+    border-bottom: 4px solid #ffb347;
+    padding-bottom: 0.1em;
+}
+
+.nav-buttons {
+    margin: 24px 0 18px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #ffb347;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 32px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 0 16px;
+    font-size: 1.2em;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(30,144,255,0.08);
+}
+
+.btn:hover {
+    background: #1e90ff;
+    color: #fff;
+}
+
+.welcome-list {
+    text-align: left;
+    margin: 0 auto 18px auto;
+    max-width: 400px;
+    font-size: 1.1em;
+}
+
+.welcome-actions {
+    margin-bottom: 24px;
+    font-size: 1.1em;
+}
+
+.welcome-img {
+    margin-top: 30px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(30,144,255,0.10);
+}
+
+.welcome-bg {
+    background: linear-gradient(120deg, #f7faff 60%, #ffecd2 100%);
+}
+
+.error-msg {
+    background: #ffdddd;
+    color: #b30000;
+    border: 1px solid #ffb3b3;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+.success-msg {
+    background: #eaffea;
+    color: #1e7d1e;
+    border: 1px solid #b3ffb3;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+.form input[type="text"], .form input[type="email"], .form input[type="password"] {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 4px;
+    font-size: 1em;
+    width: 60%;
+    box-sizing: border-box;
+}
+.form input[type="file"] {
+    margin-top: 8px;
+}
+.form label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+}
+.note-link {
+    color: #1e90ff;
+    font-weight: 700;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+.note-link:hover {
+    color: #ffb347;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #eee;
+    padding: 10px 8px;
+    text-align: left;
+}
+th {
+    background: #f7faff;
+    color: #1e90ff;
+    font-size: 1.1em;
+} 
